@@ -7,6 +7,8 @@ The scripts are located in `packages/api/functions/scripts`.
 To use them, simply call them and provide them the root of the functions directory.
 For example from `packages/api` directory: `scripts/predeploy.sh ./functions`.
 
+You also need to edit both `predeploy.sh` and `postdeploy.sh` to fill in your shared workspaces and their locations, else it will not work.
+
 Please also check `packages/api/firebase.json` to see how these work with firebase `predeploy` and `postdeploy`.
 
 **REMEMBER** that you _need_ to run yarn after the predeploy and postdeploy script, else the workspace packages will not be installed/removed correctly.
