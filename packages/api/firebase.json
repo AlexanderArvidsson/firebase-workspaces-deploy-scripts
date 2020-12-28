@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "predeploy": "./functions/scripts/predeploy.sh ./functions && yarn --cwd ./functions && npm --prefix functions run build",
+    "postdeploy": "./functions/scripts/postdeploy.sh ./functions && yarn --cwd ./functions ",
+    "source": "functions"
+  }
+}

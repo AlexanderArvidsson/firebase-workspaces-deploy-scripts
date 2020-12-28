@@ -1,0 +1,13 @@
+{
+  "name": "firebase-workspaces-deploy-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AlexanderArvidsson/firebase-workspaces-deploy-scripts.git",
+  "author": "Alexander Arvidsson <alexander@arvidson.nu>",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
